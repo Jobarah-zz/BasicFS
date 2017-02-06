@@ -15,9 +15,9 @@ class BasicFileSystem {
 public: 
     BasicFileSystem();
 
-    bool writeBlock(string diskName, int i, Block* block, int blockSize);
+    bool writeBlock(string diskName, int blockNumber, Block* block, int blockSize);
 
-    Block readBlock(string diskName, int i, int blockSize);
+    Block readBlock(string diskName, int blockNumber, int blockSize);
 
     int getNextAvailableBlock();
 };

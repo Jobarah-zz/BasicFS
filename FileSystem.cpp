@@ -2,12 +2,10 @@
 // Created by jobar on 2/2/2017.
 //
 
-#include <c++/bits/ios_base.h>
-#include <c++/ios>
-#include <c++/fstream>
 #include "FileSystem.h"
 #include "SuperBlock.h"
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -20,7 +18,7 @@ bool FileSystem::setUnit(string diskName) {
 
 bool FileSystem::formatDisk(string diskName, int diskSize, int blockSize) {
     ofstream out;
-    int blockCount = diskSize/ blockSize;
+    int blockCount = diskSize / blockSize;
     out.open(diskName, ios::out|ios::binary|ios::app);
     char * disk = (char*)calloc(blockCount, blockSize);
     out.write(disk, diskSize);

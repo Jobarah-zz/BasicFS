@@ -2,27 +2,27 @@
 // Created by jobar on 2/2/2017.
 //
 
-#include <c++/fstream>
+#include <fstream>
 #include "BasicFileSystem.h"
+#include <iostream>
 
-
-bool BasicFileSystem::writeBlock(string diskName, int blockIndex, Block* block, int blockSize) {
+using namespace std;
+bool BasicFileSystem::writeBlock(string diskName, int blockNumber, Block* block, int blockSize) {
     ofstream out;
     out.open(diskName, ios::out|ios::binary|ios::app);
     char * memBlock = (char*)calloc(1, blockSize);
     memcpy(memBlock, block, blockSize);
-    out.seekp(blockIndex);
+    out.seekp(blockNumber * blockSize);
     out.write(memBlock, blockSize);
     delete [] memBlock;
     out.close();
     return false;
 }
 
-Block BasicFileSystem::readBlock(string diskName, int i, int blockSize) {
+Block BasicFileSystem::readBlock(string diskName, int blockNumber, int blockSize) {
     ifstream in(diskName,ios::in|ios::binary|ios::ate);
     Block *returnBlock;
-    int size = in.tellg();
-    in.seekg(0);
+    in.seekg(blockNumber * blockSize);
     char *readBlock;
     in.read(readBlock, blockSize);
     returnBlock = (Block*)readBlock;

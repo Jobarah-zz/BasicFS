@@ -1,0 +1,3 @@
+/Users/jonamorado/git/BasicFS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jonamorado/git/BasicFS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jonamorado/git/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir

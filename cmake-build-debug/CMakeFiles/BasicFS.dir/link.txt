@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/BasicFS.dir/main.cpp.o CMakeFiles/BasicFS.dir/DiskManager.cpp.o CMakeFiles/BasicFS.dir/BasicFileSystem.cpp.o CMakeFiles/BasicFS.dir/FileSystem.cpp.o CMakeFiles/BasicFS.dir/SuperBlock.cpp.o CMakeFiles/BasicFS.dir/Block.cpp.o  -o BasicFS 
