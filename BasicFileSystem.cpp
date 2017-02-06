@@ -7,6 +7,8 @@
 #include <iostream>
 
 using namespace std;
+
+BasicFileSystem::BasicFileSystem() { };
 bool BasicFileSystem::writeBlock(string diskName, int blockNumber, Block* block, int blockSize) {
     ofstream out;
     out.open(diskName, ios::out|ios::binary|ios::app);
