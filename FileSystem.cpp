@@ -10,6 +10,7 @@
 using namespace std;
 
 FileSystem::FileSystem () {
+    this->bfs = new BasicFileSystem();
 }
 
 bool FileSystem::setUnit(string diskName) {
@@ -37,7 +38,7 @@ int FileSystem::getAvaliableBlocksCount() {
 }
 
 bool FileSystem::allocateBlocks(int blockCount) {
-    Block oa = this->bfs->readBlock("oaDisk", 0, 512);
-    cout<< oa.data << endl;
+    Block readBlock = this->bfs->readBlock("oaDisk", 0, 512);
+    cout<< readBlock.data << endl;
     return false;
 }

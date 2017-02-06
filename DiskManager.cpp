@@ -5,16 +5,14 @@
 #include "DiskManager.h"
 #include "FileSystem.h"
 DiskManager::DiskManager() {
-
+    this->fs = new FileSystem();
 }
 
 bool DiskManager::create(string diskName, int size, int blockSize) {
-    FileSystem *fs = new FileSystem();
     return fs->formatDisk(diskName, size, blockSize);
 }
 
 bool DiskManager::mount(string diskName) {
-    this->fs = new FileSystem();
     return this->fs->setUnit(diskName);
 }
 

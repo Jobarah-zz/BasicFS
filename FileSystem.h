@@ -12,7 +12,7 @@
 using namespace std;
 
 class FileSystem {
-    BasicFileSystem *bfs = new BasicFileSystem();
+    BasicFileSystem *bfs;
 
 public:
 

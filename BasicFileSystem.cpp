@@ -22,10 +22,11 @@ bool BasicFileSystem::writeBlock(string diskName, int blockNumber, Block* block,
 }
 
 Block BasicFileSystem::readBlock(string diskName, int blockNumber, int blockSize) {
-    ifstream in(diskName,ios::in|ios::binary|ios::ate);
+    cout<< diskName << endl;
+    ifstream in(diskName, ios::in|ios::binary|ios::ate);
     Block *returnBlock;
-    in.seekg(blockNumber * blockSize);
     char *readBlock;
+    in.seekg(blockNumber * blockSize);
     in.read(readBlock, blockSize);
     returnBlock = (Block*)readBlock;
     in.close();
