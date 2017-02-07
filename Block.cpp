@@ -5,11 +5,11 @@
 #include <fstream>
 #include <cstring>
 #include "Block.h"
+Block::Block() {}
 
-Block::Block() {
-    blockId = 240;
-    memcpy(data,"Hello world\0",30);
-    nextBlockId = 2;
+Block::Block(int blockId) {
+    this->blockId = blockId;
+    nextBlockId = nullptr;
 }
 
 void Block::writeBlock(string diskName, int blockNumber, Block *block, int blockSize) {

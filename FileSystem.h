@@ -22,7 +22,7 @@ public:
 
     int getAvaliableBlocksCount();
 
-    int getNextAvailableBlock();
+    int getNextAvailableBlock(string diskName,int blockSize,int diskSize);
 
     bool allocateBlocks(int blockCount);
 };

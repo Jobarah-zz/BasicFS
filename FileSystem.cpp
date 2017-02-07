@@ -33,12 +33,15 @@ int FileSystem::getAvaliableBlocksCount() {
     return 0;
 }
 
+/*
+ * ToDo: fix this function with the correct arguments allocateBlocks
+ * */
 bool FileSystem::allocateBlocks(int blockCount) {
     Block * superBlock = new Block();
     Block * readBlock = this->bfs->readBlock("oaDisk", 0, 512,superBlock);
     return false;
 }
 
- int FileSystem::getNextAvailableBlock(){
-     return 0;
+ int FileSystem::getNextAvailableBlock(string diskName,int blockSize,int diskSize){
+    return bfs->getNextAvailableBlock(diskName,blockSize,diskSize);
  }

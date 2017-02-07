@@ -6,6 +6,7 @@ using namespace std;
 class Block {
 public:
     Block();
+    Block(int blockId);
     int blockId;
     int nextBlockId;
     char data [30];

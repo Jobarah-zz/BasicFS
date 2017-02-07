@@ -15,7 +15,7 @@ public:
 
     Block * readBlock(string diskName, int blockNumber, int blockSize,Block * block);
 
-    int getNextAvailableBlock();
+    int getNextAvailableBlock(string diskName, int blockSize, int diskSize);
 };
 
 
