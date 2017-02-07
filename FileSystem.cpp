@@ -22,7 +22,8 @@ bool FileSystem::formatDisk(string diskName, int diskSize, int blockSize) {
     delete [] disk;
     out.close();
     Block* diskData = getDiskData(diskName, diskSize, blockSize);
-    return this->bfs->writeBlock(diskName, 0, diskData, blockSize);
+    this->bfs->writeBlock(diskName, 0, diskData, blockSize);
+    return writeBlocksDataInDisk(diskName,blockSize, diskSize);
 }
 
 Block* FileSystem::getDiskData(string diskName, int diskSize, int blockSize) {
@@ -36,22 +37,31 @@ int FileSystem::getAvaliableBlocksCount(string diskName, int blockCount,int bloc
 
     do {
 
-        this->bfs->readBlock(diskName, nextBlockIndex, blockSize, block);
+        block = this->bfs->readBlock(diskName, nextBlockIndex, blockSize, block);
         nextBlockIndex = block->nextBlockId;
         usedBlocks++;
-    } while (block->data != NULL);
+    } while (block->nextBlockId != -1);
 
     int availableBlocks = blockCount -  usedBlocks;
 
     return availableBlocks;
 }
 
+/*
+ * ToDo: fix this function with the correct arguments allocateBlocks
+ * */
 bool FileSystem::allocateBlocks(int blockCount) {
     Block * superBlock = new Block();
     Block * readBlock = this->bfs->readBlock("oaDisk", 0, 512,superBlock);
     return false;
 }
 
- int FileSystem::getNextAvailableBlock(){
-     return 0;
+ int FileSystem::getNextAvailableBlock(string diskName,int blockSize,int diskSize){
+    return bfs->getNextAvailableBlock(diskName,blockSize,diskSize);
  }
+
+bool FileSystem::writeBlocksDataInDisk(string diskName, int blockSize, int diskSize) {
+    do{
+
+    }while();
+}

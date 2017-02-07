@@ -22,9 +22,11 @@ public:
 
     int getAvaliableBlocksCount(string diskName, int blockCount, int blockSize);
 
-    int getNextAvailableBlock();
+    int getNextAvailableBlock(string diskName,int blockSize,int diskSize);
 
     bool allocateBlocks(int blockCount);
+
+    bool writeBlocksDataInDisk(string diskName, int blockSize, int diskSize);
 };
 
 
