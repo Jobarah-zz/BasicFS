@@ -1,7 +1,3 @@
-//
-// Created by jobar on 2/2/2017.
-//
-
 #include "FileSystem.h"
 #include "SuperBlock.h"
 #include <iostream>
@@ -40,7 +36,6 @@ int FileSystem::getAvaliableBlocksCount() {
 bool FileSystem::allocateBlocks(int blockCount) {
     Block * superBlock = new Block();
     Block * readBlock = this->bfs->readBlock("oaDisk", 0, 512,superBlock);
-    cout<< readBlock->blockId<< endl;
     return false;
 }
 

@@ -1,7 +1,3 @@
-//
-// Created by jobar on 1/30/2017.
-//
-
 #ifndef BASICFS_DISKMANAGER_H
 #define BASICFS_DISKMANAGER_H
 

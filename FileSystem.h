@@ -1,7 +1,3 @@
-//
-// Created by jobar on 2/2/2017.
-//
-
 #ifndef BASICFS_FILESYSTEM_H
 #define BASICFS_FILESYSTEM_H
 

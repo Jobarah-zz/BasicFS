@@ -1,6 +1,4 @@
-// writing on a text file
 #include <iostream>
-#include <fstream>
 #include "DiskManager.h"
 
 using namespace std;

@@ -1,13 +1,9 @@
-//
-// Created by jobar on 2/2/2017.
-//
-
 #include <fstream>
 #include <cstring>
 #include "SuperBlock.h"
 
 SuperBlock::SuperBlock(string diskName, int diskSize, int blockSize) {
-    this->diskName = diskName;
+    memcpy(this->diskName,diskName.c_str(),30);
     this->diskSize = diskSize;
     this->blockSize = blockSize;
     this->blockCount = diskSize / blockSize;

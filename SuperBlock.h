@@ -1,7 +1,3 @@
-//
-// Created by jobar on 2/2/2017.
-//
-
 #ifndef BASICFS_SUPERBLOCK_H
 #define BASICFS_SUPERBLOCK_H
 
@@ -14,7 +10,7 @@ class SuperBlock: public Block {
 public:
     SuperBlock();
     SuperBlock(string diskName, int diskSize, int blockSize);
-    string diskName;
+    char diskName [30];
     int diskSize;
     int blockCount;
     virtual void writeBlock(string diskName, int blockNumber, Block* block, int blockSize);
