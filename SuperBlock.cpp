@@ -7,6 +7,8 @@ SuperBlock::SuperBlock(string diskName, int diskSize, int blockSize) {
     this->diskSize = diskSize;
     this->blockSize = blockSize;
     this->blockCount = diskSize / blockSize;
+    this->blockId = 0;
+    this->nextBlockId = 1;
 }
 
 void SuperBlock::writeBlock(string diskName, int blockNumber, Block *block, int blockSize) {

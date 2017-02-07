@@ -6,11 +6,7 @@
 #include <cstring>
 #include "Block.h"
 
-Block::Block() {
-    blockId = 240;
-    memcpy(data,"Hello world\0",30);
-    nextBlockId = 2;
-}
+Block::Block() { }
 
 void Block::writeBlock(string diskName, int blockNumber, Block *block, int blockSize) {
     ofstream out;

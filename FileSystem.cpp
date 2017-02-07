@@ -29,8 +29,21 @@ Block* FileSystem::getDiskData(string diskName, int diskSize, int blockSize) {
     return new SuperBlock(diskName, diskSize, blockSize);
 }
 
-int FileSystem::getAvaliableBlocksCount() {
-    return 0;
+int FileSystem::getAvaliableBlocksCount(string diskName, int blockCount,int blockSize) {
+    int usedBlocks = 0;
+    int nextBlockIndex = 0;
+    Block * block = new Block();
+
+    do {
+
+        this->bfs->readBlock(diskName, nextBlockIndex, blockSize, block);
+        nextBlockIndex = block->nextBlockId;
+        usedBlocks++;
+    } while (block->data != NULL);
+
+    int availableBlocks = blockCount -  usedBlocks;
+
+    return availableBlocks;
 }
 
 bool FileSystem::allocateBlocks(int blockCount) {

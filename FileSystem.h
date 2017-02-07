@@ -20,7 +20,7 @@ public:
 
     Block* getDiskData(string diskName, int diskSize, int blockSize);
 
-    int getAvaliableBlocksCount();
+    int getAvaliableBlocksCount(string diskName, int blockCount, int blockSize);
 
     int getNextAvailableBlock();
 

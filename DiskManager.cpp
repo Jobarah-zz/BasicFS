@@ -22,8 +22,8 @@ bool DiskManager::allocateBlocks(int blockCount) {
     return false;
 }
 
-int DiskManager::getFreeBlocks(){
-    return 0;
+int DiskManager::getFreeBlocks(string diskName, int blockCount, int blockSize){
+    return fs->getAvaliableBlocksCount(diskName, blockCount, blockSize);
 }
 
 int DiskManager::getFreeSpace(){

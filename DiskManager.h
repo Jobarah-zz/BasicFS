@@ -13,7 +13,7 @@ class DiskManager {
 public:
     DiskManager();
     bool create(string diskName, int size, int blockSize);
-    int getFreeBlocks();
+    int getFreeBlocks(string diskName, int blockCount, int blockSize);
     int getFreeSpace();
     bool mount(string diskName);
     void unmount(string diskName);
