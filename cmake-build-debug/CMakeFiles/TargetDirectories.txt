@@ -1,3 +1,0 @@
-C:/Users/danny/Documents/GitHub/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir
-C:/Users/danny/Documents/GitHub/BasicFS/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/danny/Documents/GitHub/BasicFS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
