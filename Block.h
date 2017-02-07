@@ -4,15 +4,13 @@
 
 #ifndef BASICFS_BLOCK_H
 #define BASICFS_BLOCK_H
-
-
 class Block {
 public:
     Block();
     int blockId;
     int nextBlockId;
     char * data;
-
+    int blockSize;
 };
 
 

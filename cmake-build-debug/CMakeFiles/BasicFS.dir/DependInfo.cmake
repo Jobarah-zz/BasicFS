@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jonamorado/git/BasicFS/BasicFileSystem.cpp" "/Users/jonamorado/git/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/BasicFileSystem.cpp.o"
-  "/Users/jonamorado/git/BasicFS/Block.cpp" "/Users/jonamorado/git/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/Block.cpp.o"
-  "/Users/jonamorado/git/BasicFS/DiskManager.cpp" "/Users/jonamorado/git/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/DiskManager.cpp.o"
-  "/Users/jonamorado/git/BasicFS/FileSystem.cpp" "/Users/jonamorado/git/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/FileSystem.cpp.o"
-  "/Users/jonamorado/git/BasicFS/SuperBlock.cpp" "/Users/jonamorado/git/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/SuperBlock.cpp.o"
-  "/Users/jonamorado/git/BasicFS/main.cpp" "/Users/jonamorado/git/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/main.cpp.o"
+  "C:/Users/jobar/BasicFS/BasicFileSystem.cpp" "C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/BasicFileSystem.cpp.obj"
+  "C:/Users/jobar/BasicFS/Block.cpp" "C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/Block.cpp.obj"
+  "C:/Users/jobar/BasicFS/DiskManager.cpp" "C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/DiskManager.cpp.obj"
+  "C:/Users/jobar/BasicFS/FileSystem.cpp" "C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/FileSystem.cpp.obj"
+  "C:/Users/jobar/BasicFS/SuperBlock.cpp" "C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/SuperBlock.cpp.obj"
+  "C:/Users/jobar/BasicFS/main.cpp" "C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

@@ -26,3 +26,11 @@ bool DiskManager::allocateBlocks(int blockCount) {
 //    }
     return false;
 }
+
+int DiskManager::getFreeBlocks(){
+    return 0;
+}
+
+int DiskManager::getFreeSpace(){
+    return 0;
+}

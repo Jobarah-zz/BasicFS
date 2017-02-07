@@ -17,7 +17,7 @@ public:
 
     bool writeBlock(string diskName, int blockNumber, Block* block, int blockSize);
 
-    Block readBlock(string diskName, int blockNumber, int blockSize);
+    Block * readBlock(string diskName, int blockNumber, int blockSize);
 
     int getNextAvailableBlock();
 };

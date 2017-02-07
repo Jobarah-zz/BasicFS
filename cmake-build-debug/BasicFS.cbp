@@ -8,114 +8,112 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/jonamorado/git/BasicFS/cmake-build-debug"/>
+				<Option working_dir="C:/Users/jobar/BasicFS/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/jonamorado/git/BasicFS/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/jonamorado/git/BasicFS/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BasicFS">
-				<Option output="/Users/jonamorado/git/BasicFS/cmake-build-debug/BasicFS" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jonamorado/git/BasicFS/cmake-build-debug"/>
+				<Option output="C:/Users/jobar/BasicFS/cmake-build-debug/BasicFS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/jobar/BasicFS/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/tools/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++"/>
+					<Add directory="C:/tools/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/tools/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 BasicFS"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 BasicFS"/>
+					<CompileFile command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BasicFS/fast">
-				<Option output="/Users/jonamorado/git/BasicFS/cmake-build-debug/BasicFS" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jonamorado/git/BasicFS/cmake-build-debug"/>
+				<Option output="C:/Users/jobar/BasicFS/cmake-build-debug/BasicFS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/jobar/BasicFS/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/tools/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++"/>
+					<Add directory="C:/tools/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/tools/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 BasicFS/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jonamorado/git/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 BasicFS/fast"/>
+					<CompileFile command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/jobar/BasicFS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/jobar/BasicFS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jonamorado/git/BasicFS/BasicFileSystem.cpp">
+		<Unit filename="C:/Users/jobar/BasicFS/BasicFileSystem.cpp">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="/Users/jonamorado/git/BasicFS/BasicFileSystem.h">
+		<Unit filename="C:/Users/jobar/BasicFS/BasicFileSystem.h">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="/Users/jonamorado/git/BasicFS/Block.cpp">
+		<Unit filename="C:/Users/jobar/BasicFS/Block.cpp">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="/Users/jonamorado/git/BasicFS/Block.h">
+		<Unit filename="C:/Users/jobar/BasicFS/Block.h">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="/Users/jonamorado/git/BasicFS/DiskManager.cpp">
+		<Unit filename="C:/Users/jobar/BasicFS/DiskManager.cpp">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="/Users/jonamorado/git/BasicFS/DiskManager.h">
+		<Unit filename="C:/Users/jobar/BasicFS/DiskManager.h">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="/Users/jonamorado/git/BasicFS/FileSystem.cpp">
+		<Unit filename="C:/Users/jobar/BasicFS/FileSystem.cpp">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="/Users/jonamorado/git/BasicFS/FileSystem.h">
+		<Unit filename="C:/Users/jobar/BasicFS/FileSystem.h">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="/Users/jonamorado/git/BasicFS/SuperBlock.cpp">
+		<Unit filename="C:/Users/jobar/BasicFS/SuperBlock.cpp">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="/Users/jonamorado/git/BasicFS/SuperBlock.h">
+		<Unit filename="C:/Users/jobar/BasicFS/SuperBlock.h">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="/Users/jonamorado/git/BasicFS/main.cpp">
+		<Unit filename="C:/Users/jobar/BasicFS/main.cpp">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="/Users/jonamorado/git/BasicFS/CMakeLists.txt">
+		<Unit filename="C:/Users/jobar/BasicFS/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
