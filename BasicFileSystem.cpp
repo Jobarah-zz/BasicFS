@@ -5,6 +5,7 @@
 #include <fstream>
 #include "BasicFileSystem.h"
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 

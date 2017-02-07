@@ -6,33 +6,35 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/jobar/BasicFS/BasicFileSystem.cpp
+/home/daniel/Documents/GitHub/BasicFS/BasicFileSystem.cpp
 fstream
 -
 BasicFileSystem.h
-C:/Users/jobar/BasicFS/BasicFileSystem.h
+/home/daniel/Documents/GitHub/BasicFS/BasicFileSystem.h
 iostream
 -
+cstring
+-
 
-C:/Users/jobar/BasicFS/BasicFileSystem.h
+/home/daniel/Documents/GitHub/BasicFS/BasicFileSystem.h
 Block.h
-C:/Users/jobar/BasicFS/Block.h
+/home/daniel/Documents/GitHub/BasicFS/Block.h
 string
 -
 
-C:/Users/jobar/BasicFS/Block.cpp
+/home/daniel/Documents/GitHub/BasicFS/Block.cpp
 Block.h
-C:/Users/jobar/BasicFS/Block.h
+/home/daniel/Documents/GitHub/BasicFS/Block.h
 
-C:/Users/jobar/BasicFS/Block.h
+/home/daniel/Documents/GitHub/BasicFS/Block.h
 
-C:/Users/jobar/BasicFS/DiskManager.cpp
+/home/daniel/Documents/GitHub/BasicFS/DiskManager.cpp
 DiskManager.h
-C:/Users/jobar/BasicFS/DiskManager.h
+/home/daniel/Documents/GitHub/BasicFS/DiskManager.h
 FileSystem.h
-C:/Users/jobar/BasicFS/FileSystem.h
+/home/daniel/Documents/GitHub/BasicFS/FileSystem.h
 
-C:/Users/jobar/BasicFS/DiskManager.h
+/home/daniel/Documents/GitHub/BasicFS/DiskManager.h
 iostream
 -
 string
@@ -40,41 +42,41 @@ string
 fstream
 -
 FileSystem.h
-C:/Users/jobar/BasicFS/FileSystem.h
+/home/daniel/Documents/GitHub/BasicFS/FileSystem.h
 
-C:/Users/jobar/BasicFS/FileSystem.cpp
+/home/daniel/Documents/GitHub/BasicFS/FileSystem.cpp
 FileSystem.h
-C:/Users/jobar/BasicFS/FileSystem.h
+/home/daniel/Documents/GitHub/BasicFS/FileSystem.h
 SuperBlock.h
-C:/Users/jobar/BasicFS/SuperBlock.h
+/home/daniel/Documents/GitHub/BasicFS/SuperBlock.h
 iostream
 -
 fstream
 -
 
-C:/Users/jobar/BasicFS/FileSystem.h
+/home/daniel/Documents/GitHub/BasicFS/FileSystem.h
 string
 -
 BasicFileSystem.h
-C:/Users/jobar/BasicFS/BasicFileSystem.h
+/home/daniel/Documents/GitHub/BasicFS/BasicFileSystem.h
 Block.h
-C:/Users/jobar/BasicFS/Block.h
+/home/daniel/Documents/GitHub/BasicFS/Block.h
 
-C:/Users/jobar/BasicFS/SuperBlock.cpp
+/home/daniel/Documents/GitHub/BasicFS/SuperBlock.cpp
 SuperBlock.h
-C:/Users/jobar/BasicFS/SuperBlock.h
+/home/daniel/Documents/GitHub/BasicFS/SuperBlock.h
 
-C:/Users/jobar/BasicFS/SuperBlock.h
+/home/daniel/Documents/GitHub/BasicFS/SuperBlock.h
 Block.h
-C:/Users/jobar/BasicFS/Block.h
+/home/daniel/Documents/GitHub/BasicFS/Block.h
 string
 -
 
-C:/Users/jobar/BasicFS/main.cpp
+/home/daniel/Documents/GitHub/BasicFS/main.cpp
 iostream
 -
 fstream
 -
 DiskManager.h
-C:/Users/jobar/BasicFS/DiskManager.h
+/home/daniel/Documents/GitHub/BasicFS/DiskManager.h
 

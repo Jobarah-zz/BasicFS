@@ -1,14 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/BasicFS.dir/main.cpp.obj"
-  "CMakeFiles/BasicFS.dir/DiskManager.cpp.obj"
-  "CMakeFiles/BasicFS.dir/BasicFileSystem.cpp.obj"
-  "CMakeFiles/BasicFS.dir/FileSystem.cpp.obj"
-  "CMakeFiles/BasicFS.dir/SuperBlock.cpp.obj"
-  "CMakeFiles/BasicFS.dir/Block.cpp.obj"
+  "CMakeFiles/BasicFS.dir/main.cpp.o"
+  "CMakeFiles/BasicFS.dir/DiskManager.cpp.o"
+  "CMakeFiles/BasicFS.dir/BasicFileSystem.cpp.o"
+  "CMakeFiles/BasicFS.dir/FileSystem.cpp.o"
+  "CMakeFiles/BasicFS.dir/SuperBlock.cpp.o"
+  "CMakeFiles/BasicFS.dir/Block.cpp.o"
   "BasicFS.pdb"
-  "BasicFS.exe"
-  "BasicFS.exe.manifest"
-  "libBasicFS.dll.a"
+  "BasicFS"
 )
 
 # Per-language clean rules from dependency scanning.

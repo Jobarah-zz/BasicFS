@@ -8,112 +8,116 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/jobar/BasicFS/cmake-build-debug"/>
+				<Option working_dir="/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="BasicFS">
-				<Option output="C:/Users/jobar/BasicFS/cmake-build-debug/BasicFS.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/jobar/BasicFS/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/include"/>
-					<Add directory="C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/include-fixed"/>
-					<Add directory="C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="C:/tools/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++"/>
-					<Add directory="C:/tools/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/tools/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 BasicFS"/>
-					<CompileFile command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="BasicFS/fast">
-				<Option output="C:/Users/jobar/BasicFS/cmake-build-debug/BasicFS.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/jobar/BasicFS/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/include"/>
-					<Add directory="C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/include-fixed"/>
-					<Add directory="C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="C:/tools/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++"/>
-					<Add directory="C:/tools/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/tools/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 BasicFS/fast"/>
-					<CompileFile command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/jobar/BasicFS/cmake-build-debug"/>
+				<Option working_dir="/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/jobar/BasicFS/cmake-build-debug"/>
+				<Option working_dir="/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/tools/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jobar/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BasicFS">
+				<Option output="/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/BasicFS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 BasicFS"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BasicFS/fast">
+				<Option output="/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/BasicFS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 BasicFS/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/jobar/BasicFS/BasicFileSystem.cpp">
+		<Unit filename="/home/daniel/Documents/GitHub/BasicFS/BasicFileSystem.cpp">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="C:/Users/jobar/BasicFS/BasicFileSystem.h">
+		<Unit filename="/home/daniel/Documents/GitHub/BasicFS/BasicFileSystem.h">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="C:/Users/jobar/BasicFS/Block.cpp">
+		<Unit filename="/home/daniel/Documents/GitHub/BasicFS/Block.cpp">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="C:/Users/jobar/BasicFS/Block.h">
+		<Unit filename="/home/daniel/Documents/GitHub/BasicFS/Block.h">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="C:/Users/jobar/BasicFS/DiskManager.cpp">
+		<Unit filename="/home/daniel/Documents/GitHub/BasicFS/DiskManager.cpp">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="C:/Users/jobar/BasicFS/DiskManager.h">
+		<Unit filename="/home/daniel/Documents/GitHub/BasicFS/DiskManager.h">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="C:/Users/jobar/BasicFS/FileSystem.cpp">
+		<Unit filename="/home/daniel/Documents/GitHub/BasicFS/FileSystem.cpp">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="C:/Users/jobar/BasicFS/FileSystem.h">
+		<Unit filename="/home/daniel/Documents/GitHub/BasicFS/FileSystem.h">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="C:/Users/jobar/BasicFS/SuperBlock.cpp">
+		<Unit filename="/home/daniel/Documents/GitHub/BasicFS/SuperBlock.cpp">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="C:/Users/jobar/BasicFS/SuperBlock.h">
+		<Unit filename="/home/daniel/Documents/GitHub/BasicFS/SuperBlock.h">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="C:/Users/jobar/BasicFS/main.cpp">
+		<Unit filename="/home/daniel/Documents/GitHub/BasicFS/main.cpp">
 			<Option target="BasicFS"/>
 		</Unit>
-		<Unit filename="C:/Users/jobar/BasicFS/CMakeLists.txt">
+		<Unit filename="/home/daniel/Documents/GitHub/BasicFS/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

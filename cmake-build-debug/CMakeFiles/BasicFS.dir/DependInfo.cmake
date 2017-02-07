@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/jobar/BasicFS/BasicFileSystem.cpp" "C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/BasicFileSystem.cpp.obj"
-  "C:/Users/jobar/BasicFS/Block.cpp" "C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/Block.cpp.obj"
-  "C:/Users/jobar/BasicFS/DiskManager.cpp" "C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/DiskManager.cpp.obj"
-  "C:/Users/jobar/BasicFS/FileSystem.cpp" "C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/FileSystem.cpp.obj"
-  "C:/Users/jobar/BasicFS/SuperBlock.cpp" "C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/SuperBlock.cpp.obj"
-  "C:/Users/jobar/BasicFS/main.cpp" "C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/main.cpp.obj"
+  "/home/daniel/Documents/GitHub/BasicFS/BasicFileSystem.cpp" "/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/BasicFileSystem.cpp.o"
+  "/home/daniel/Documents/GitHub/BasicFS/Block.cpp" "/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/Block.cpp.o"
+  "/home/daniel/Documents/GitHub/BasicFS/DiskManager.cpp" "/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/DiskManager.cpp.o"
+  "/home/daniel/Documents/GitHub/BasicFS/FileSystem.cpp" "/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/FileSystem.cpp.o"
+  "/home/daniel/Documents/GitHub/BasicFS/SuperBlock.cpp" "/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/SuperBlock.cpp.o"
+  "/home/daniel/Documents/GitHub/BasicFS/main.cpp" "/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

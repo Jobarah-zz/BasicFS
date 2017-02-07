@@ -1,3 +1,3 @@
-C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir
-C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/jobar/BasicFS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/daniel/Documents/GitHub/BasicFS/cmake-build-debug/CMakeFiles/BasicFS.dir
