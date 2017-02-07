@@ -2,14 +2,16 @@
 // Created by jobar on 2/2/2017.
 //
 
-#include <c++/bits/ios_base.h>
-#include <c++/ios>
-#include <c++/fstream>
 #include "FileSystem.h"
 #include "SuperBlock.h"
-#include "Block.h"
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+
+using namespace std;
 
 FileSystem::FileSystem () {
+    this->bfs = new BasicFileSystem();
 }
 
 bool FileSystem::setUnit(string diskName) {
@@ -18,7 +20,7 @@ bool FileSystem::setUnit(string diskName) {
 
 bool FileSystem::formatDisk(string diskName, int diskSize, int blockSize) {
     ofstream out;
-    int blockCount = diskSize/ blockSize;
+    int blockCount = diskSize / blockSize;
     out.open(diskName, ios::out|ios::binary|ios::app);
     char * disk = (char*)calloc(blockCount, blockSize);
     out.write(disk, diskSize);
@@ -35,3 +37,13 @@ Block* FileSystem::getDiskData(string diskName, int diskSize, int blockSize) {
 int FileSystem::getAvaliableBlocksCount() {
     return 0;
 }
+
+bool FileSystem::allocateBlocks(int blockCount) {
+    Block * readBlock = this->bfs->readBlock("oaDisk", 0, 512);
+    cout<< readBlock->data << endl;
+    return false;
+}
+
+ int FileSystem::getNextAvailableBlock(){
+     return 0;
+ }

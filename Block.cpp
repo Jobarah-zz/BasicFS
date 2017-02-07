@@ -6,4 +6,6 @@
 
 Block::Block() {
     blockId = 240;
+    data = "hola fuck, mierda";
+    nextBlockId = 2;
 }

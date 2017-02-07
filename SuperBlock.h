@@ -15,7 +15,6 @@ public:
     SuperBlock(string diskName, int diskSize, int blockSize);
     string diskName;
     int diskSize;
-    int blockSize;
     int blockCount;
 };
 
