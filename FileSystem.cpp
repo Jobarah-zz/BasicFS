@@ -40,7 +40,7 @@ int FileSystem::getAvaliableBlocksCount() {
 bool FileSystem::allocateBlocks(int blockCount) {
     Block * superBlock = new Block();
     Block * readBlock = this->bfs->readBlock("oaDisk", 0, 512,superBlock);
-    cout<< readBlock->data << endl;
+    cout<< readBlock->blockId<< endl;
     return false;
 }
 

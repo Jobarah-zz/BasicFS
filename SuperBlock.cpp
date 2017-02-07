@@ -3,6 +3,7 @@
 //
 
 #include <fstream>
+#include <cstring>
 #include "SuperBlock.h"
 
 SuperBlock::SuperBlock(string diskName, int diskSize, int blockSize) {

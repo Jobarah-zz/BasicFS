@@ -3,11 +3,12 @@
 //
 
 #include <fstream>
+#include <cstring>
 #include "Block.h"
 
 Block::Block() {
     blockId = 240;
-    data = "Hello world";
+    memcpy(data,"Hello world\0",30);
     nextBlockId = 2;
 }
 
